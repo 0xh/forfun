@@ -12,9 +12,14 @@
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
+
                     @endif
 
                     You are logged in!
+                        <div>
+                            <textarea name="content"></textarea>
+                            <p><input type="submit" value="留言"></p>
+                        </div>
                 </div>
             </div>
         </div>
